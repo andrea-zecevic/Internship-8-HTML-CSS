@@ -21,7 +21,7 @@ body {
     font-size: 48px;
 }
 
-.header-link {
+.link {
     color: aqua;
     text-decoration: underline;
 }
@@ -44,7 +44,7 @@ body {
 .hr-line {
     border: 0;
     height: 2px;
-    background-color: gold;
+    background-color: orange;
     margin-top: 7px;
     margin-bottom: 7px;
 }
@@ -58,14 +58,52 @@ body {
     padding: 5px;
 }
 
-.pink-section-title {
+.section-title {
     text-align: left;
     margin-left: 0;
-    margin-top: 7px;
+    margin-top: 5px;
     padding-left:10px;
 }
 
-.pink-section-link {
-    color: rgb(28, 10, 98);
-    text-decoration: underline aqua;
+p {
+    padding-left: 5px;
+}
+
+.blue-section {
+    color: black;
+    font-size: 25px;
+    background-color:antiquewhite;
+    border: 10px solid rgb(83, 143, 234);
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.orange-section {
+    color: black;
+    font-size: 25px;
+    background-color:antiquewhite;
+    border: 10px solid orange;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    color: white;
+}
+
+img {
+    padding-left: 5px;
+}
+
+.marquee {
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.small-text {
+    font-size: 10px;
+    vertical-align: middle;
 }
